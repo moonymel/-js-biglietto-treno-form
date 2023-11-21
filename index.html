@@ -10,12 +10,12 @@
 <body>
 
     <div class="biglietto">
-        <div class="campi_compilabili">
+        <div class="campi_compilabili text-center">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 mb-3 input-group-sm">
                     <input type="text" placeholder="Inserisci i km da percorrere" id="km" name="km" class="form-control">
                 </div>
-                <div class="col-6">
+                <div class="col-6 mb-3 input-group-sm">
                     <select name="eta" id="eta" class="form-control">
                             <option value="">Seleziona la tua fascia d'età</option>
                             <option value="under">Minorenne</option>
@@ -24,8 +24,12 @@
                     </select>
                 </div>
             </div>
-            <button class="btn">Submit</button>
-            <h1 id="info">Il prezzo del tuo biglietto è di:</h1>
+            <button class="btn btn-dark mb-3">Submit</button>
+            <div class="text-start">
+                <h1 id="info" class="fs-5">Il prezzo del tuo biglietto è di:</h1>
+                <h2 id="info_e" class="fs-6">Per un passeggero:</h2>
+                <h2 id="info_k" class="fs-6">Con chilometri di percorrenza:</h2>
+            </div>
         </div>
     </div>
 

@@ -5,5 +5,16 @@
 }
 
 .biglietto {
-    
+    width:700px;
+    height:355px;
+    position:relative;
+    background-image:url('https://i.imgur.com/9EOPIi7.png');
+    background-size:contain;
+}
+
+.campi_compilabili {
+    position:absolute;
+    top:70px;
+    left:150px;
+    width:400px;
 }

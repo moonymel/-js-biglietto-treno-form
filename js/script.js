@@ -7,15 +7,22 @@ button.addEventListener('click', function() {
 
     if (eta == 'under') {
         let prezzo_under = prezzo_st - prezzo_st / 100 * 20;
-        console.log(prezzo_under.toFixed(2));
+        document.getElementById('info').innerText += ' ' + prezzo_under.toFixed(2) + '€';
+        console.log(eta);
+        document.getElementById('info_e').innterText += 'Minorenne';
+        document.getElementById('info_k').innterText += ' ' + km;
     }
     
     else if (eta == 'over') {
         let prezzo_over = prezzo_st - prezzo_st / 100 * 40;
-        console.log(prezzo_over.toFixed(2));
+        document.getElementById('info').innerText += ' ' + prezzo_over.toFixed(2) + '€';
+        document.getElementById('info_e').innterText += ' ' + eta;
+        document.getElementById('info_k').innterText += ' ' + km;
     }
     
     else {
-        console.log(prezzo_st.toFixed(2))
+        document.getElementById('info').innerText += ' ' + prezzo_st.toFixed(2) + '€';
+        document.getElementById('info_e').innterText += ' ' + eta;
+        document.getElementById('info_k').innterText += ' ' + km;
     }
 }) 

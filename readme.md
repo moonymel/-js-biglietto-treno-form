@@ -15,3 +15,10 @@ MILESTONE 1:
             7.a.2 Calcolaer il valore del biglietto scontato
             7.a.3 Stampare in console.log il valore del biglietto scontato
 8. ; Stampare in console.log il valore del biglietto standard
+
+
+
+MILESTONE 2:
+1. Sistemare la base dell'html e stilizzarlo
+2. Creare un id nell'html per il testo di informazione prezzo
+3. Modificare in js l'innerText dell'id per mostrare il prezzo ottenuto
